@@ -1,0 +1,49 @@
+body{
+  background: linear-gradient(90deg, #22c1c3, #b0eb50);
+}
+
+.main-cont{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem 0rem 3rem 0rem;
+  background: linear-gradient(90deg, #1ae988 , #22c1c3);
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+.btn-success{
+  margin-right: 2rem;
+}
+.sub-head{
+  text-align: center;
+  text-decoration: underline;
+}
+.card-box{
+  width: 30%;
+  margin: 2rem 0rem 2rem 0rem;
+  background: linear-gradient(90deg, #1ae988 , #22c1c3);
+  border-radius: 15px;
+}
+.api-data{
+  text-align: center;
+  margin-left: 42%;
+}
+.loading{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  .main-cont{
+    width: 75%;
+    margin-left: 12.5%;
+  }
+  .card-box{
+    width: 75%;
+  }
+  .api-data{
+    margin-left: 20%;
+  }
+}
